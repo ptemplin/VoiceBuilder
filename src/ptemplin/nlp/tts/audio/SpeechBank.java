@@ -39,7 +39,7 @@ public class SpeechBank {
 	
 	private AudioFormat audioFormat;
 	
-	private static final String PHONEME_BOUNDARIES_FILEPATH = RES_DIR + "\\PhonemeBoundaries_temp";
+	private static final String PHONEME_BOUNDARIES_FILEPATH = RES_DIR + "/PhonemeBoundaries_temp";
 	private static final String PHONEME_RECORDING_FILEPATH_SUFFIX = "_recording.wav";
 	
 	private static final int INPUT_STREAM_BUFFER_SIZE = 128000;

@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class CMUPronunciationDictionary implements PronunciationDictionary {
 	
-	private static final String CMU_PRONUNCIATION_DICT_FILE_PATH = RES_DIR + "\\CMUPronunciationDict.txt";
+	private static final String CMU_PRONUNCIATION_DICT_FILE_PATH = RES_DIR + "/CMUPronunciationDict.txt";
 
 	private final Map<String, List<Phoneme>> wordsToPhonemes;
 	
